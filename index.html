@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>黃煒傑的個人網站</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- TODO: 設計Section 1的背景圖片 -->
+    <!-- TODO: 放Section 1的照片 -->
+    <!-- TODO: 寫Section 1的文字 -->
+    <!-- TODO: 寫Section 2的文字 -->
+    <!-- TODO: 寫Footer 的文字 -->
+    <!-- TODO: 放Section 3的圖片 -->
+    <!-- TODO: 放Section 2的圖片 -->
+
+    <!-- Heading -->
+    <div class="container"> 
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom"> 
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                <svg width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M14 4.577v6.846L8 15V1zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866z"/>
+                </svg>
+                <span class="fs-4">黃煒傑的個人網站</span> 
+            </a>
+            
+            <ul class="nav nav-pills"> 
+                <li><a href="index.html" class="nav-link active" aria-current="page">首頁</a></li> 
+                <li><a href="about.html" class="nav-link">關於我</a></li>
+                <li><a href="project.html" class="nav-link">作品集</a></li>
+                <li><a href="resource.html" class="nav-link">資源推薦</a></li> 
+                <li>
+                    <a href="https://publish.obsidian.md/c-u-tomorrow0229" class="nav-link" target="_blank" rel="noopener noreferrer">
+                    自學筆記<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li> 
+            </ul> 
+        </header> 
+    </div>
+    
+
+
+    <!-- Section 1: introduction -->
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 profile-photo" src="assets/images/myimage.png" width="150fr" height="150fr"> 
+        <h1 class="display-5 fw-bold text-body-emphasis">Hello.</h1> 
+        <div>
+            <p class="lead m-4">我是黃煒傑，一個不會放棄、持續成長的學生</p> 
+        </div> 
+    </div>
+    
+
+
+    <hr>
+
+
+
+    <!-- Section 2: about this website -->
+    <h2 class="display-5 fw-bold text-body-emphasis">About This Website</h2>
+    <div class="px-4 py-5 my-5 text-center body-container">
+        <div class="card">
+            <img src="assets/images/subpage.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">關於我</h5>
+                <p class="card-text">基本資訊及求學歷程</p>
+                <a href="about.html" class="btn btn-primary">前往</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/subpage.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">作品集</h5>
+                <p class="card-text">作品製作歷程及展示</p>
+                <a href="project.html" class="btn btn-primary">前往</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/subpage.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">資源推薦</h5>
+                <p class="card-text">讓我成長的學習資源</p>
+                <a href="resource.html" class="btn btn-primary">前往</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/subpage.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">自學筆記</h5>
+                <p class="card-text">一步步自學留下的足跡</p>
+                <a href="https://publish.obsidian.md/c-u-tomorrow0229" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    前往<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+
+
+    <!-- Section 3: gallery-->
+    <h2 class="display-5 fw-bold text-body-emphasis">Gallery</h2>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/pop1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/pop2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/pop3.png" class="d-block w-100">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <hr>
+
+
+
+    <!-- Section 4: contact me -->
+    <div class="container my-5"> 
+        <div class="p-5 text-center bg-body-tertiary rounded-3"> 
+            <h1 class="text-body-emphasis" style="margin-bottom: 50px;">Contact me</h1> 
+            <p class="lead">Gmail: 123456789@gmail.com</p> 
+        </div> 
+    </div>
+
+
+
+    <!-- Back to top block -->
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-bar-up"></i></a>
+
+
+    
+    <!-- Footer -->
+    <div class="container"> 
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" target="_blank">Linkdin</a></li> 
+                <li class="nav-item"><a href="https://github.com/CUTomorrow0229" class="nav-link px-2 text-body-secondary" target="_blank">Github</a></li> 
+                <li class="nav-item"><a href="https://publish.obsidian.md/c-u-tomorrow0229/" class="nav-link px-2 text-body-secondary" target="_blank">Obsidian</a></li> 
+            </ul> 
+            <p class="text-center text-body-secondary">Worked with bootstrap</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
