@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>黃煒傑的個人網站</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Heading -->
+    <div class="container"> 
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom"> 
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                <svg width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M14 4.577v6.846L8 15V1zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866z"/>
+                </svg>
+                <span class="fs-4 heading-title">黃煒傑的個人網站</span> 
+            </a>
+            
+            <ul class="nav nav-pills"> 
+                <li><a href="index.html" class="nav-link" aria-current="page">首頁</a></li> 
+                <li><a href="about.html" class="nav-link active">關於我</a></li>
+                <li><a href="project.html" class="nav-link">作品集</a></li>
+                <li><a href="resource.html" class="nav-link">資源推薦</a></li> 
+                <li>
+                    <a href="https://publish.obsidian.md/para0229k" class="nav-link" target="_blank" rel="noopener noreferrer">
+                        自學筆記<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li> 
+            </ul> 
+        </header> 
+    </div>
+
+
+
+    <!-- About me -->
+    <div class="content-container">
+        <div class="tabs">
+            <div class="tab about-1 active">基本資料</div>
+            <div class="tab about-2">求學歷程</div>
+        </div>
+        
+        <!-- Basic information -->
+        <div id="basic-info" class="tab-content active">
+            <!-- Profile -->
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="assets/images/myimage.jpg" alt="黃煒傑的個人照片">    
+                </div>
+                <div class="profile-info">
+                    <h2 class="profile-name">黃煒傑</h2>
+                    <ul class="info-list">
+                        <li>
+                            <span class="info-label">年齡：</span>
+                            <span>20歲</span>
+                        </li>
+                        <li>
+                            <span class="info-label">學系：</span>
+                            <span>國立成功大學地球科學系</span>
+                        </li>
+                        <li>
+                            <span class="info-label">年級：</span>
+                            <span>二年級</span>
+                        </li>
+                        <li>
+                            <span class="info-label">Gmail：</span>
+                            <span>para0229k@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="info-label">Github：</span>
+                            <a href="https://github.com/Para0229k" target="_blank">
+                                Para0229<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- My story -->
+            <h3 class="section-title">我的故事</h3>
+            <p>
+                從小對於數學、物理、程式設計特別有興趣，一路走來也拿過一些好成績，高三時發現自己的地科專長，在成就感的驅使下進入了地科系
+                ，隨著思想變得成熟及自我審視，重新發現我對於程式領域埋藏在心裡的渴望，現在為了彌補過去的錯誤，將人生導向正軌而持續努力
+                中。
+            </p>
+            <p>
+                我會不斷從錯誤學習，現在開始，努力的腳步將不再停下。
+            </p>
+            
+            <!-- Speciality -->
+            <h3 class="section-title">程式語言</h3>
+            <button type="button" class="btn btn-primary speciality">MATLAB</button>
+            <button type="button" class="btn btn-primary speciality">C#</button>
+            <button type="button" class="btn btn-primary speciality">Python</button>
+            <button type="button" class="btn btn-primary speciality">JavaScript</button>
+            <button type="button" class="btn btn-primary speciality">HTML</button>
+            <button type="button" class="btn btn-primary speciality">CSS</button>
+            
+            <!-- Interest -->
+            <h3 class="section-title">個人興趣</h3>
+            <p>
+                我最主要的興趣是多媒體處理，在影像及訊號兩部分皆有研究，引起我的興趣的分別是影像處理中的「機器視覺」和訊號處理中的「物聯
+                網」，兩者都是非常實用的技術，人類也從中受益許多，讓我也想要投入該領域，期許未來能幫助這個領域取得突破，讓人類更加進步。
+            </p>
+            <p>
+                為了拓展我在該領域的能力並順應時代潮流，我正在積極學習資料科學、機器學習等多媒體處理的基礎技術並修習線性代數、機率與統計
+                等重要課程，打下扎實的基底，隨著未來知識累積後融會貫通，同時我也利用暑假的時間自學網站開發以拓展能力，把握時間精進自己。
+            </p>
+            <p>
+                目前的學習管道皆以網路自學、自己研究為主，殷切盼望能夠找到更有系統性的學習管道及可以一起討論程式的同學和朋友。
+            </p>
+
+            <!-- Other -->
+            <h3 class="section-title">其他喜好</h3>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="最喜歡打飛盤爭奪賽">
+                飛盤
+            </button>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="上過體育課後覺得蠻不錯的，但只敢去運動中心打">
+                撞球
+            </button>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="最喜歡的角色是令狐沖">
+                武俠小說
+            </button>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="東野圭吾資深讀者">推理小說</button>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="最愛XIII三部曲">太空戰士</button>
+            <button type="button" class="btn btn-primary speciality" data-bs-toggle="tooltip" data-bs-placement="top" title="最愛零代真島吾朗的故事">人中之龍</button>
+
+            <!-- Achievement -->
+            <h3 class="section-title">特殊事件</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">年份</th>
+                        <th scope="col">事件</th>
+                        <th scope="col">說明</th>
+                        <th scope="col">附件</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>ARML Local Compition</td>
+                        <td>地區賽參加獎</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1m7g3YZMy2xIi1L1O4J0gHIvz6KGuX3Me/view?usp=drive_link" target="_blank">
+                                參賽證明<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>學科能力競賽-地科組</td>
+                        <td>市賽佳作</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1mBF5G1um2lLW07y502JyixLY8Ur2y2j2/view?usp=drive_link" target="_blank">
+                                獎狀<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2023</th>
+                        <td>辰星獎學金獲獎生</td>
+                        <td>個人申請正取第一名取得資格</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1EjQerVSB5FllBOCkB2Fz7lg8mxTId4Sp/view?usp=drive_link" target="_blank" data-bs-toggle="tooltip" data-bs-placement="right" title="我知道轉系就意味著要犧牲這筆獎學金，但我將要創造的價值絕對不只六十萬，我會讓這筆投資值得的">
+                                切結書<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2023</th>
+                        <td>54屆地科系展</td>
+                        <td>台灣地質組導覽員</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1mHwDOm8xzuH3n11tGUuzVLP3KWPxeHeG/view?usp=drive_link" target="_blank">
+                                工作證<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>書卷獎</td>
+                        <td>113學年度第一學期</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1pO20Ah0ja5mi1JaVwLYOo9r-i9lI8FNl/view?usp=drive_link" target="_blank">
+                                獎狀<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>55屆地科系展</td>
+                        <td>地質災害組導覽員</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1mP-ngKUE7hCNMPwxQdeRuIRF30iB9CZF/view?usp=drive_link" target="_blank">
+                                工作證<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+
+            <!-- Recent -->
+            <h3 class="section-title">近期狀況</h3>
+            <div class="card recent-box">
+                <h4 class="recent-title">多媒體處理</h4>
+                <p>
+                    我大二時透過Vanderbilt University在Coursera上開設的一系列MATLAB課程對資料、訊號及影像處理有了一定的瞭解，除了基本
+                    知識以外，更讓我知道這些知識要如何透過程式語言來實現，並結合學校的線性代數等課程，進一步的加深我的理解。
+                </p>
+                <p>
+                    打下扎實的基礎後，我預計在網站開發的學習到一個段落時，利用剩餘的暑假時間參加MathWorks團隊的computer vision
+                    engineer系列課程，進一步增強我在電腦視覺領域的能力。
+                </p>
+            </div>
+            
+            <div class="card recent-box">
+                <h4 class="recent-title">網站開發</h4>
+                <p>
+                    為了使自身的程式能力更多元化，我利用暑假時間在Udemy平台學習網站開發，目前的課程完成度為51% (197/386 topic)，已學
+                    習完前端網頁開發，網頁開發不同於一般程式語言的學習流程，讓我有了不同的見解。
+                </p>
+                <p>
+                    在學習網站開發的過程也讓我再次看見了創意及美術的重要性，在這個領域中，除了基本的JavaScript程式碼以外，更重要的是顏
+                    色(color theory)及字體(typography)如何搭配、物件如何擺放(UI design)、流程配置(UX design)等等，有了這些元素才能打造出
+                    一個優質的網站，這些也是我現在尚不足的地方。若將來想要開發多媒體處理或其他應用程式時就會用上這些觀念，雖說可能會有
+                    專門的設計部門，但能多學一點、多備一些技能對自己總是好的。
+                </p>
+            </div>
+        </div>
+        
+        <!-- Learning process -->
+        <div id="education" class="tab-content">
+            <div class="timeline">
+                <!-- Stage 1 -->
+                <div class="timeline-item left">
+                    <div class="card timeline-content">
+                        <h3 class="timeline-title">國小時期</h3>
+                        <p class="timeline-description">
+                            第一次接觸程式及電子零件，用Arduino製作簡單
+                            的投籃機器人。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Stage 2 -->
+                <div class="timeline-item right">
+                    <div class="card timeline-content">
+                        <h3 class="timeline-title">國中時期</h3>
+                        <p class="timeline-description">
+                            由於沒有接觸電腦的管道，難以繼續學習程式，但
+                            在唸書過程中發現自己的數學及物理專長，同時也
+                            發現了化學短版。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Stage 3 -->
+                <div class="timeline-item left">
+                    <div class="card timeline-content">
+                        <h3 class="timeline-title">高中時期</h3>
+                        <p class="timeline-description">
+                            專心發展數學及物理專長，奠定扎實的基礎，也發
+                            現了自己的地科能力特別突出，被成就感沖昏了頭
+                            而進入地科系。
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="timeline-item right">
+                    <div class="card timeline-content">
+                        <h3 class="timeline-title">大學一年級</h3>
+                        <p class="timeline-description">
+                            把重心放在適應大學生活，學業仍以學習基本知識
+                            為主，並沒有特別努力拚搏，只在課餘時間緩慢的
+                            自學基礎程式語法。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Stage 5 -->
+                <div class="timeline-item left">
+                    <div class="card timeline-content">
+                        <h3 class="timeline-title">大學二年級</h3>
+                        <p class="timeline-description">
+                            隨著深入學習程式，開始意識到我並不適合地科，
+                            更重要的是，我太過安逸了。經過醒悟及深刻的反
+                            省後，決定轉換跑道，即使要捨棄六十萬的獎學金
+                            也在所不惜。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Achievement -->
+            <h3 class="section-title">重要學習成果</h3>
+            <div class="card recent-box">
+                <h4 class="recent-title">遊戲製作</h4>
+                <p>
+                    身為一個從小開始打電動的人，學習程式後的第一件事情當然是製作屬於自己的遊戲，我用C#語言從頭開始自己設計了一款遊戲。
+                    以遊戲性為主，強調簡單、有趣。製作過程中也瞭解到了遊戲公司各部門的重要性，個人製作需要付出數十倍的時間與心力，甚至
+                    要學習許多與遊戲程式本身無關的內容，但我還是很樂在其中。我目前也正在利用閒暇時間開發另一款遊戲，採用了TRPG
+                    (Tabletop Role-Playing Game)的遊戲模式，這次會著重在劇情，希望我有一天也能寫出和太空戰士一樣厲害的劇情遊戲。
+                </p>
+            </div>
+            
+            <div class="card recent-box">
+                <h4 class="recent-title">著重應用的程式</h4>
+                <p>
+                    遊戲固然有趣，但我並不想靠遊戲吃飯，也不會讓我的能力侷限在該領域，我在圖像、訊號處理方面也有一定的研究，製作了如影
+                    像辨識、訊號分析等著重於現實應用的程式。學習的過程中也讓我理解到：在多媒體處理這個領域中，程式能力只是冰山一角，還
+                    有龐大的背景知識需要學習，該領域也還有很多的發展空間，透過結合許多日新月異的技術，隨時都可能有重大突破，不過結合的
+                    前提是徹底學會並能夠將所學活用，所以我偏好慢慢學、多練習來打好基底，便於未來進行更深入的研究，這些是我尚且不足的地
+                    方，所以我希望能夠轉換到更專業的環境，讓我能夠補齊這些知識。
+                </p>
+            </div>
+            
+            <div class="card recent-box">
+                <h4 class="recent-title">學習筆記整理</h4>
+                <p>
+                    自我學習是一條沒有盡頭的路，時常會需要複習以前的所學，並融入新學到的知識以達到融會貫通的境界，但我個人非常不喜歡背
+                    書，所以我在學習的過程習慣留下筆記，需要的時候就可以快速搜尋，而用久了自然而然就記起來了，除此之外，在整理筆記的過
+                    程中也能加深我的印象（順便練習一下英文表達能力）。
+                </p>
+                <small style="color: darkgray;">
+                    但由於這些筆記最初的目的就是給我自己看的，所以比起Notion, HackMD等網站，我更偏好Obsidian作為我的主要筆記軟體，我看中的是它的安全
+                    性（本地端檔案）和知識網路（知識累積與連結的形象化），出於相同原因（也出於英文詞彙量的不足），我的筆記寫法比較自由奔放，在敘事的措
+                    詞上沒有太正式。
+                </small>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Back to top block -->
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-bar-up"></i></a>
+
+
+
+    <!-- Footer -->
+    <div class="container"> 
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                <li class="nav-item footer-link">
+                    <a href="https://github.com/Para0229k" class="nav-link px-2 text-body-secondary rounded-2" target="_blank">Github</a>
+                </li> 
+                <li class="nav-item footer-link">
+                    <a href="https://publish.obsidian.md/para0229k" class="nav-link px-2 text-body-secondary rounded-2" target="_blank">Obsidian</a>
+                </li> 
+            </ul>
+
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <span class="text-center text-body-secondary">© 2025 WEI-JIE-HUANG. All rights reserved.</span>
+                <span class="text-end text-body-secondary">Built with Bootstrap and jQuery</span>
+            </div>   
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

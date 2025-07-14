@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>黃煒傑的個人網站</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Heading -->
+    <div class="container"> 
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom"> 
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                <svg width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M14 4.577v6.846L8 15V1zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866z"/>
+                </svg>
+                <span class="fs-4 heading-title">黃煒傑的個人網站</span> 
+            </a>
+            
+            <ul class="nav nav-pills"> 
+                <li><a href="index.html" class="nav-link" aria-current="page">首頁</a></li> 
+                <li><a href="about.html" class="nav-link">關於我</a></li>
+                <li><a href="project.html" class="nav-link active">作品集</a></li>
+                <li><a href="resource.html" class="nav-link">資源推薦</a></li> 
+                <li>
+                    <a href="https://publish.obsidian.md/para0229k" class="nav-link" target="_blank" rel="noopener noreferrer">
+                        自學筆記<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li> 
+            </ul> 
+        </header> 
+    </div>
+
+
+
+    <!-- Section 1: Gallery -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="4000"> 
+        <div class="carousel-indicators"> 
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button> 
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button> 
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button> 
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8" class=""></button>
+        </div> 
+        
+
+        <div class="carousel-inner project-gallery"> 
+            <!-- Gallery page 1 -->
+            <div class="carousel-item active bg-overlay project-gallery-item" style="background-image: url(assets/images/chaos-stage-main-menu.png);">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Chaos Stage</h1>
+                        <p>製作一款真正屬於自己的遊戲</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery page 2 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/AAT-main-menu.png);">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Audio Analysis Tool</h1>
+                        <p>實用導向，研究基本訊號處理</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery page 3 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/personal-website-main-menu.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Personal Website</h1>
+                        <p>練習前端網頁開發、展示自我價值</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery page 4 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/coin-detector-content.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Coin Detector</h1>
+                        <p>深入研究多媒體領域後，將其與機器學習結合</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery page 5 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/tetris-main-menu.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Tetris</h1>
+                        <p>透過臨摹、學習，一睹「程式」真正的樣貌</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery page 6 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/CCV-main-menu.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Covid Case Visualization</h1>
+                        <p>MATLAB語言學習過程的第一個里程碑</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery page 7 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/simon-game-main-menu.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Simon Game</h1>
+                        <p>JavaScript語言學習過程的第一個里程碑</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Gallery page 8 -->
+            <div class="carousel-item bg-overlay project-gallery-item" style="background-image: url(assets/images/drum-kit-web-game-main-menu.png)">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Drum Kit Web Game</h1>
+                        <p>練習前端網頁設計的各種事件互動</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> 
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+            <span class="visually-hidden">Previous</span> 
+        </button> 
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> 
+            <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+            <span class="visually-hidden">Next</span> 
+        </button> 
+    </div>
+
+
+
+    <!-- Section 2: Project introduction -->
+    <div class="container px-4 py-5" id="featured-3"> 
+        <h2 class="pb-2 border-bottom">作品一覽</h2> 
+        
+        <!-- Intro page 1 -->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 page-1"> 
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/Csharp-icon.svg" width="50px" height="50px" alt="Csharp的icon">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Chaos Stage</h3>
+                <p class="intro-text">
+                    用C#的Windows mode製作，一個操作簡單直覺，但每
+                    關都有不同特殊事件的小遊戲。從概念發想到程式實
+                    現、美術設計，親手打造屬於自己的遊戲。
+                </p> 
+                <a href="#detail" class="icon-link" id="project-1">View details</a>
+            </div>
+
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/matlab-icon.svg" width="50px" height="50px" alt="Audio Analysis Tool專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Audio Analysis Tool</h3> 
+                <p class="intro-text">
+                    視窗型的音訊分析工具，提供訊號視覺化、頻譜分析等功
+                    能，還可以透過UI調整音訊的音量、速度等，或使用自訂
+                    參數的FIR濾波器進行濾波。
+                </p> 
+                <a href="#detail" class="icon-link" id="project-2">View details</a>
+            </div> 
+
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/javascript-icon.svg" width="50px" height="50px" alt="Personal Website專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Personal Website</h3> 
+                <p class="intro-text">
+                    綜合我學到的所有前端網頁開發的知識，配合Bootstrap
+                    建構出的個人網站，包括四個分頁，在練習的同時展現自
+                    己的價值。
+                </p> 
+                <a href="#detail" class="icon-link" id="project-3">View details</a>
+            </div> 
+        </div>
+
+        <!-- Intro page 2 -->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 page-2"> 
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/matlab-icon.svg" width="50px" height="50px" alt="Coin Detector專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Coin Detector</h3> 
+                <p class="intro-text">
+                    將機器學習、濾波等概念結合到影像處理上，先撰寫出腳
+                    本，再轉換成視窗應用程式，並新增不同幣值選項及影像
+                    匯入的功能，增加泛用度。
+                </p> 
+                <a href="#detail" class="icon-link" id="project-4">View details</a>
+            </div>
+
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/python-icon.svg" width="50px" height="50px" alt="Tetris專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Tetris</h3> 
+                <p class="intro-text">
+                    參考網路上的俄羅斯方塊遊戲架構，將其內容理解、內化
+                    以後，增加新的功能，讓遊戲更完善，並幫助我理解
+                    Python語法和Pygame函式庫。
+                </p> 
+                <p class="intro-text">
+                    不能說是我的作品，但絕對是最重要的學習里程碑之一。
+                </p>
+                <a href="#detail" class="icon-link" id="project-5">View details</a>
+            </div>
+
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/matlab-icon.svg" width="50px" height="50px" alt="Covid Case Visualization專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Covid Case Visualization</h3> 
+                <p class="intro-text">
+                    MATLAB app designer的練習專案，使用基本語法搭配
+                    物件導向來繪製並管理大量統計數據，是我在學習基本
+                    MATLAB語言過程的重大里程碑。
+                </p> 
+                <a href="#detail" class="icon-link" id="project-6">View details</a>
+            </div> 
+        </div>
+
+        <!-- Intro page 3 -->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 page-3"> 
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/javascript-icon.svg" width="50px" height="50px" alt="Simon Game專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Simon Game</h3> 
+                <p class="intro-text">
+                    將HTML, CSS, JavaScript整合，製作一個互動式的動態網
+                    站，主題為Simon(一款經典桌遊)，是我在學習前端網頁
+                    架構的里程碑。
+                </p>
+                <a href="#detail" class="icon-link" id="project-7">View details</a>
+            </div>
+
+            <div class="feature col"> 
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3"> 
+                    <img src="./assets/images/javascript-icon.svg" width="50px" height="50px" alt="Drum Kit Web Game專案的縮圖">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Drum Kit Web Game</h3> 
+                <p class="intro-text">
+                    學習JavaScript的過程中，為了探索Event listener的種類
+                    及互動方式而做的簡單網頁，是我在製作其他互動式網頁
+                    前的暖身。
+                </p> 
+                <a href="https://github.com/Para0229k/Drum_Kit_Web_Game" class="icon-link" id="project-8" target="_blank">
+                    View details<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                </a>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Intro page selection -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled" id="previous-intro">
+                <a class="page-link" aria-label="Previous">Prev</a>
+            </li>
+
+            <li class="page-item active" id="page-1">
+                <a class="page-link">1</a>
+            </li>
+            
+            <li class="page-item" id="page-2">
+                <a class="page-link">2</a>
+            </li>
+            
+            <li class="page-item" id="page-3">
+                <a class="page-link">3</a>
+            </li>
+            
+            <li class="page-item" id="next-intro">
+                <a class="page-link" aria-label="Next">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <hr>
+
+
+
+    <!-- Section 3: Detail -->
+    <div class="detail" id="detail">
+        <!-- Detail page selection -->
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 rounded-2">
+            <a class="navbar-brand detail-title">Chaos Stage</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item detail-item ">
+                    <a class="nav-link active" id="detail-page-1">動機</a>
+                </li>
+                
+                <li class="nav-item detail-item">
+                    <a class="nav-link" id="detail-page-2">內容</a>
+                </li>
+                
+                <li class="nav-item detail-item">
+                    <a class="nav-link" id="detail-page-3">挑戰</a>
+                </li>
+                
+                <li class="nav-item detail-item">
+                    <a class="nav-link" id="detail-page-4">收穫</a>
+                </li>
+                
+                <li class="nav-item detail-item">
+                    <a class="nav-link" id="detail-page-5">成果展示</a>
+                </li>
+
+                <li class="nav-item detail-item">
+                    <a href="https://github.com/Para0229k/Chaos_Stage" class="nav-link github-link" target="_blank">
+                        Github<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Guide of this page -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-0-1" tabindex="0">
+            <h4 class="content-title">本頁操作說明</h4>
+            <p>
+                在「<a href="#featured-3">作品一覽</a>」可以查看各個專題的簡介，點選"<a href="#featured-3">View details</a>"可以切換此處的顯示內容、查看各個作品的製作歷程。
+            </p>
+            <ol>
+                <li>動機：我為什麼會想製作這個專題</li>
+                <li>內容：包括畫面、功能等專題內容簡介</li>
+                <li>挑戰：製作過程遇到的困難與解決的方法</li>
+                <li>收穫：製作這個專題讓我得到的技能與領悟</li>
+                <li>成果展示：操作畫面及影片展示</li>
+                <li>Github：前往Github頁面查看程式碼及檔案說明</li>
+            </ol>
+        </div>
+
+        <!-- Project 1 content 1 Chaos Stage -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-1-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                在學習C# Windows mode的過程中，我發現我有了圖片物件、讓物件之間互動和讓物件移動的方式(甚至形成動畫的效果)，我就開始想「那我好像已經有足
+                夠的程式能力能夠製作一款簡單的遊戲了，不如來試試看」，於是便產生了這支程式。
+            </p>
+            <p>
+                Chaos Stage的名字一部分是源自太空戰士中的歷代反派Chaos，我在取名字的時候剛好想到它，配合每關不同的特殊事件，就取出了"Chaos Stage"這個名
+                字，也讓玩家在看到這個名字的時候做好心理準備，面對隱藏在單純外表底下的混亂邪惡關卡。
+            </p>
+            <div class="text-center">
+                <img src="assets/images/chaos-stage-main-menu.png" alt="Chaos Stage專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 1 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-1-2" tabindex="0">       
+            <h4 class="content-title">遊戲流程</h4>
+            <div class="text-center">
+                <img src="assets/images/chaos-stage-flow.png" alt="Chaos Stage的流程圖" class="project-img">
+            </div>
+            
+            <hr>
+
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>選擇關卡：在選擇關卡畫面點擊不同按鈕可以從不同關卡開始</li>
+                <video src="assets/video/chaos-stage-choose-level.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>角色移動：
+                    <ul>
+                        <li>按左右移動、上跳躍(無法跑出地圖外)</li>
+                        <li>敵人會在一定範圍內巡邏</li>
+                        <li>角色和敵人圖片都真的會動(動畫效果)</li>
+                    </ul>
+                </li>
+
+                <li>角色發動攻擊：按空白鍵發射子彈攻擊敵人</li>
+                <video src="assets/video/chaos-stage-character-move.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>碰撞判定：
+                    <ul>
+                        <li>角色碰到障礙物或敵人會死亡</li>
+                        <li>敵人碰到子彈會死亡</li>
+                        <li>角色碰到冰棒(寶藏)就會過關</li>
+                    </ul>
+                </li>
+                <li>暫停遊戲：按暫停按鈕暫停遊戲</li>
+                <li>跳過關卡：真的受不了的話可以按跳過按鈕跳過當前關卡</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">額外功能</h4>
+            <p>為了增加使用者的遊戲體驗，有一些額外的功能以加強遊戲的細節</p>
+            <ol>
+                <li>重力模擬：
+                    <ul>
+                        <li>角色掉落速度會隨著掉落時間變快，模擬重力</li>
+                        <li>走出地板外會自動掉落</li>
+                    </ul>
+                </li>
+                <video src="assets/video/chaos-stage-drop.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>畫面置中：不管視窗怎麼縮放畫面都還是在正中間</li>
+                
+                <li>背景音樂：遊戲中會播放背景音樂，比較不無聊一點</li>
+                <li>事件音效：
+                    <ul>
+                        <li>成功過關和闖關失敗會有不同的結算畫面、音效</li>
+                        <li>主要按鈕按下時也會有音效</li>
+                    </ul>
+                </li>
+                <li>操作顯示：右下角即時顯示使用者按鍵，讓旁觀者比較清楚某些關卡事件發生了什麼事</li>
+                <video src="assets/video/chaos-stage-instructor.mp4" width="50%" height="auto" controls muted loop></video>
+            </ol>
+
+            <hr>
+            
+            <h4 class="content-title">關卡設計</h4>
+            <ol>
+                <li>第一關：無事件，正常關卡</li>
+                <li>第二關：角色左右控制相反</li>
+                <li>第三關：怪物會高速反彈子彈，角色碰到怪物反彈的子彈會死亡</li>
+                <li>第四關：角色在跳過障礙的時候，障礙會往前移動</li>
+                <li>第五關：畫面會反覆變暗、變亮(5秒/次)，但只有變暗的時候可以移動</li>
+                <li>第六關：怪物變成三隻，其中兩隻無敵</li>
+                <li>第七關：共有三個寶物，只有一個是真的，另外兩個是陷阱(碰到會重新開始)</li>
+                <li>第八關：平台隱形，吃到寶物之後，會重新開始並出現下一個寶物，每次平台都會更換位置</li>
+                <li>第九關：所有平台消失，沒有隱形平台，要用滑鼠拖動角色上去</li>
+                <li>第十關：角色跳躍鍵失效，要用滑鼠點擊角色來跳躍</li>
+            </ol>
+            
+            <hr>
+            
+            <h4 class="content-title">美術設計</h4>
+            <p>皆使用免費公開的素材</p>
+            <ol>
+                <li>背景圖片、音樂：
+                    <a href="https://moonwind.pw/index.html" target="_blank">
+                        Moonwind<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <img src="assets/images/chaos-stage-resource-lisence-1.png" alt="素材免版權申明" class="project-img">
+
+                <li>UI圖示：
+                    <a href="https://kenney.nl/assets" target="_blank">
+                        Kenny<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <img src="assets/images/chaos-stage-resource-lisence-2.png" alt="素材免版權申明" class="project-img">
+
+                <li>角色、障礙物、敵人、子彈圖示：
+                    <a href="https://dotown.maeda-design-room.net/" target="_blank">
+                        Dotown<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <img src="assets/images/chaos-stage-resource-lisence-3.png" alt="素材免版權申明" class="project-img">
+
+                <li>按鈕音效：
+                    <a href="https://soundeffect-lab.info/sound/button/" target="_blank">
+                        効果音ラボ<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <img src="assets/images/chaos-stage-resource-lisence-4.png" alt="素材免版權申明" class="project-img">
+            <ol>
+        </div>
+
+        <!-- Project 1 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-1-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>如何在自動落下和跳躍的過程中判定角色落地(太嚴格會導致來不及判定就穿過去)</li>
+                <li>如何切換關卡</li>
+                <li>切換關卡後物件消失</li>
+                <li>對UI配置、美術設計較不熟悉</li>
+            </ol>
+            
+            <hr>
+            
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>將垂直移動寫在Timer中，並把移動距離拆成每次1px以避免來不及判定</li>
+                <li>活用Panel等容器，只轉移每關共通物件</li>
+                <li>善用debug mode來觀察原因(座標定位跑掉)</li>
+                <li>尋找現成素材，搭配UX的概念，以簡單明瞭為主</li>
+            </ol>
+        </div>
+
+        <!-- Project 1 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-1-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <ol>
+                <li>對C#語言的掌握度提升</li>
+                <li>對物件之間、物件和使用者間的互動情形有更多的瞭解</li>
+                <li>體驗一個完整的遊戲的製作流程</li>
+            </ol>
+        </div>
+
+        <!-- Project 1 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-1-5" tabindex="0">
+            <h4 class="content-title">遊玩影片</h4>
+            <div class="text-center">
+                <video src="assets/video/chaos-stage-gameplay.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+
+
+
+        <!-- Project 2 content 1 (Audio Analysis Tool) -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-2-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                在學習工程數學的Fourier transform的過程中，我對於Shazam這個應用程式的演算法感到好奇，但由於當時我沒有足夠的程式能力支援我去研究它，好奇與
+                疑問就這樣被保存在心裡。
+            </p>
+            <p>
+                直到我掌握了MATLAB語言後，我發現我有足夠的基礎去支持我往音訊分析的方面研究了，音訊分析的第一步就是對訊號進行視覺化、頻譜分析及濾波等操
+                作，我便以此為題，製作一個MATLAB應用程式。
+            </p>
+            <div class="text-center">
+                <img src="assets/images/AAT-content-image.png" alt="Audio Analysis Tool專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 2 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-2-2" tabindex="0">
+            <h4 class="content-title">UI介紹</h4>
+            <div class="text-center">
+                <img src="assets/images/AAT-ui-image.png" alt="Audio analysis tool的UI畫面" class="project-img">
+            </div>
+            <ol>
+                <li>展示音訊視覺化結果</li>
+                <li>選擇圖像種類</li>
+                <li>選擇濾波器種類</li>
+                <li>客製化濾波器種類</li>
+                <li>音訊振幅及速度(採樣率)調整</li>
+                <li>音訊相關資訊展示</li>
+                <li>當前播放狀態指示燈</li>
+                <li>播放(調整後的)音訊</li>
+                <li>從電腦中讀取音訊檔案</li>
+                <li>透過麥克風錄製新檔案</li>
+                <li>儲存調整後的音訊檔案</li>
+                <li>客製化濾波器參數</li>
+                <li>UI主題</li>
+            </ol>
+            
+            <hr>
+            
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>音訊視覺化：可顯示波形圖、頻譜圖、時頻譜，並隨時更改標題</li>
+                <video src="assets/video/AAT-switch-chart.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>音訊過濾：包含內建的低通、高通、帶通、帶阻FIR濾波器及自訂參數的濾波器(含輸入防呆)</li>
+                <video src="assets/video/AAT-filter.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>音訊編輯：可使用拉桿調整音訊的音量和速度</li>
+                <video src="assets/video/AAT-manipulate.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>音訊播放：播放編輯後的音訊，附播放狀態指示燈</li>
+                <li>音訊管理：可讀取音訊(.wav檔)、錄製音訊、儲存編輯後的音訊</li>
+                <li>顏色主題：Dark mode / Light mode主題切換，保護眼睛</li>
+                <video src="assets/video/AAT-dark-mode.mp4" width="50%" height="auto" controls muted loop></video>
+            </ol>
+        </div>
+
+        <!-- Project 2 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-2-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>對訊號的基本原理不夠熟悉</li>
+                <li>如何在MATLAB中操作訊號</li>
+                <li>對濾波器的種類及運作方式不夠熟悉</li>
+                <li>如何針對客製化參數進行輸入防呆</li>
+            </ol>
+        
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>自行透過網路資源進行學習</li>
+                <li>查看MathWorks的官方說明檔案</li>
+                <li>自行透過網路資源進行學習</li>
+                <li>針對每一種可能的情況進行強制修正</li>
+            </ol>
+        </div>
+
+        <!-- Project 2 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-2-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                完成這個專案後，我對訊號本身有了基本的理解，也瞭解了如何透過程式碼來對訊號進行操作，更重要的是，現在我在寫程式的過程中可以透過官方說明
+                文件、Stack Overflow等網路管道來解決我面臨的問題了。
+            </p>
+        </div>
+
+        <!-- Project 2 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-2-5" tabindex="0">
+            <h4 class="content-title">操作影片</h4>
+            <div class="text-center">
+                <video src="assets/video/AAT-demonstration.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+
+
+
+        <!-- Project 3 content 1 Personal Website -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-3-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                我想大部分學習網站開發的人的第一個專題應該都是製作一個屬於自己的個人網站，畢竟在龐大的網路中可以有一個屬於自己的基地這點非常的吸引人，而且
+                畫面、功能、內容都隨我設計，可以用來介紹我這個人並展示我的學習成果，這麼具有意義的專題我當然不會錯過。
+            </p>
+        </div>
+
+        <!-- Project 3 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-3-2" tabindex="0">
+            <h4 class="content-title">網站導覽</h4>
+            <ol>
+                <li>首頁：分成歡迎、分頁介紹、畫廊、聯絡方式四個部分，主要是介紹我的個人網站</li>
+                <li>關於我：分成基本資料及求學歷程兩個頁面，分別介紹現在的我和我的成長軌跡</li>
+                <li>作品集：分成展示區、作品一覽和詳細資料三個區塊，介紹我的作品及製作歷程</li>
+                <li>資源推薦：分成資訊及閱讀兩個部分，介紹幫助我成長的資源</li>
+                <li>自學筆記：導向我的Obsidian publish介面，包含我的自學筆記</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">特點介紹</h4>
+            <ol>
+                <li>所有的card物件在滑鼠停留時會浮起來</li>
+                <video src="assets/video/personal-web-card.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>所有的Navbar選項物件在滑鼠停留時也會特別顯示</li>
+                <video src="assets/video/personal-web-navbar.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>作品集中點選View details會移動至底部說明區並切換顯示主題；點選說明區的不同選項也會切換顯示內容</li>
+                <video src="assets/video/personal-web-switch-project.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>切換頁面時(作品集中的分頁切換)被切換的區域會有淡出淡入的效果</li>
+
+                <li>網頁往下滑以後，右下角會出現回到最上方的按鈕</li>
+                <video src="assets/video/personal-web-back-to-top.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>部分按鈕有tooltip提示額外文字</li>
+                <video src="assets/video/personal-web-tooltip.mp4" width="50%" height="auto" controls muted loop></video>
+            </ol>
+        </div>
+
+        <!-- Project 3 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-3-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>不熟悉網頁設計及排版</li>
+                <li>有許多未見過的物件及屬性</li>
+                <li>Class和ID太多了，記不太起來</li>
+                <li>JavaScript及CSS似乎都有更好的寫法</li>
+            </ol>
+            <small>5. 還沒有累積那麼多成就可以寫</small>
+
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>用Bootstrap提供的架構為基礎下去設計，比較不需要苦惱排版、形狀等問題</li>
+                <li>查看Bootstrap, MDN, W3School等網站的說明文件</li>
+                <li>命名需要命的更清楚且不重複</li>
+                <li>由於現在的網頁檔案不大，先以能夠表現出想要的效果為主，未來多做多練習以後自然會進步</li>
+            </ol>
+            <small>5. 繼續努力吧!</small>
+        </div>
+
+        <!-- Project 3 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-3-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                架設個人網站讓我更熟練HTML, CSS, JavaScript三個前端架設之間的互動模式，以及創意和美術的重要性。除此之外，製作個人網站最大的收穫應該是成就
+                感吧，雖然我沒有做出什麼驚天動地的作品，或許這些對許多厲害的同學、學長姐，甚至教授、工程師來說都是微不足道的東西，但這些都是我一步一腳印努力
+                得來的東西，是我成長並進步的證明，對我來說每個都意義非凡，非常值得製作一個網站來展示它們。期許未來這個分頁會被不斷拓展，我也可以拿出更驚人、
+                更厲害的作品來展示給大家看，證明我不斷成長的價值。
+            </p>
+        </div>
+
+        <!-- Project 3 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-3-5" tabindex="0">
+            <h4 class="content-title text-center">現在已經在看了，希望您喜歡</h4>
+        </div>
+        
+
+
+
+        <!-- Project 4 content 1 Coin Detector -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-4-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                上完 "Introduction to data, signal and image analysis with MATLAB" 這門課以後，我想將所學轉換成更具應用價值的形式，為了往電腦視覺的方向前進，
+                我想先嘗試製作一個用於辨識圖像的應用程式，正好課堂作業有寫出了許多可用的函式，我只需要將其改寫並使用就好。
+            </p>
+            <p>
+                我先是製作了一個用於偵測內建圖像的腳本，但我想讓它變得更泛用一點，不是重複偵測相同的圖案，於是我將其拓展成應用程式，將視窗應用程式、圖像處
+                理、機器學習融合在一個專案當中。
+            </p>
+
+            <div class="text-center">
+                <img src="assets/images/coin-detector-content.png" alt="Coin Detector專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 4 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-4-2" tabindex="0">
+            <h4 class="content-title">UI介紹</h4>
+            <div class="text-center">
+                <img src="assets/images/coin-detector-ui.png" alt="Coin Detector的介面圖" class="project-img">
+            </div>
+            <ol>
+                <li>展示原影像</li>
+                <li>展示經過處理後的影像</li>
+                <li>選擇要偵測的幣值</li>
+                <li>切換右側的影像種類</li>
+                <li>從電腦中讀取影像</li>
+                <li>偵測結果</li>
+            </ol>
+            
+            <hr>
+            
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>影像切換：可切換察看經過Otsu threshold、膨脹、侵蝕的圖像，或是最終結果</li>
+                <video src="assets/video/coin-detector-switch.mp4" width="50%" height="auto" controls muted loop></video>
+
+
+                <li>幣值選擇：可以選擇要偵測的幣別，增加泛用度</li>
+                <li>讀取影像：可從電腦中讀取要被偵測的影像，增加泛用度</li>
+            </ol>
+
+            <small>
+                備註：經過調整參數後，這是目前的平均最佳表現，仍然有1~2個硬幣會被判別錯誤。
+            </small>
+        </div>
+
+        <!-- Project 4 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-4-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>對影像形態學處理的不熟悉</li>
+                <li>如何在泛用度與準確度之間做權衡</li>
+                <li>如何將不同的圖片的大小、解析度統一</li>
+                <li>如何確定前後景的亮暗關係</li>
+                <li>如何做得更好?(解決拍攝距離造成硬幣大小規格不同的情形)</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>查看MathWorks的官方說明檔案，瞭解如何在MATLAB上執行侵蝕、膨脹等型態學處理</li>
+                <li>透過Grid Search，找到讓測試圖片中的平均誤差降到最低的參數</li>
+                <li>活用課堂所學，解決解析度造成的判別誤差</li>
+                <li>將圖片先透過一次Otsu thoreshold抓出前景影像，在將其與四個角落的平均亮度做比較</li>
+                <li>尚未解決，可能需要有能夠自動設定不同種類硬幣直徑的功能，我會繼續學習直到我可以做出這個功能再來改進這支程式</li>
+            </ol>
+        </div>
+
+        <!-- Project 4 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-4-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                在製作這個專題的過程中，我得以將我目前為止學到的幾種大領域的知識結合在一起，讓他們在我的腦海中不再只是單獨的分支，而是交錯在一起的知識網
+                路。隨著越來越多新知識的引入，我也感受到這個「知識連通」的作用有多重要，這樣的專題可以幫助我梳理並複習我的所學，在製作的過程中也會突然發
+                現「原來這兩個東西是有關連的!」，每當出現這樣的新理解都能讓我不斷成長、加深我對這些領域的瞭解。
+            </p>
+        </div>
+
+        <!-- Project 4 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-4-5" tabindex="0">
+            <h4 class="content-title">操作影片</h4>
+            <div class="text-center">
+                <video src="assets/video/coin-detector-demonstration.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+
+
+
+        <!-- Project 5 content 1 Tetris -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-5-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                重拾程式後，我透過Stanford University的開放式課程Code in Place學習了基本的Python語法，雖然對課堂所學和作業中片段的小程式得心應手，但我時常
+                想起老師們常說的話：「真正的程式沒有這麼簡單，從幾百、幾千，甚至幾萬行的都很常見」，於是不滿足於課堂作業的我想要看看真正的程式是什麼樣子的。
+            </p>
+            <p>
+                於是我選擇了俄羅斯方塊這個主題，因為這個經典的小遊戲邏輯簡單、清楚，又有一定的深度和許多種變化，很適合拿來當作臨摹學習的主題。
+            </p>
+            <a href="https://uupgrade.medium.com/python-%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%80%91%E4%B8%80%E8%B5%B7%E7%8E%A9%E9%81%8E%E7%9A%84%E9%81%8A%E6%88%B2-%E4%BA%8C-%E4%BF%84%E7%BE%85%E6%96%AF%E6%96%B9%E5%A1%8A-2250e08b72a6" target="_blank">
+                參考文章連結<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+            </a>
+
+            <div class="text-center">
+                <img src="assets/images/tetris-main-menu.png" alt="Tetris專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 5 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-5-2" tabindex="0">
+            <h4 class="content-title">遊戲流程</h4>
+            <div class="text-center">
+                <img src="assets/images/tetris-flow.png" alt="Tetris的流程圖" class="project-img">
+            </div>
+            
+            <hr>
+
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>方塊操作：基本的加速落下、旋轉方塊等功能</li>
+                <video src="assets/video/tetris-move.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>額外分數：單次消除的行數越多，額外給分越多</li>
+                <li>關卡等級：每10000分上升一級並加快速度</li>
+                <li>預覽方塊：可以在左上角預覽下一個預計掉落的方塊</li>
+                <li>Holding：按空白鍵可以保留落下中的方塊</li>
+                <li>除錯模式：按D可以顯示程式運作情形(用數字表示方塊)</li>
+                <video src="assets/video/tetris-debug.mp4" width="50%" height="auto" controls muted loop></video>
+            </ol>
+        </div>
+
+        <!-- Project 5 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-5-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>非常多第一次看到的語法及函式</li>
+                <li>方塊進行不合理的旋轉後造成覆蓋或消失</li>
+                <li>方塊堆滿一列後沒有被清除</li>
+                <li>如何提升方塊的下落速度</li>
+                <li>如何在現有基礎上增加新功能</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <p>
+                製作這個專案時大部分的問題都是查看原文章加上自行思考、反覆檢查程式邏輯來理解的，較無系統性的解決方法。
+            </p>
+        </div>
+
+        <!-- Project 5 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-5-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                老師們的話得到了印證，果然要自己做一遍之後才知道連俄羅斯方塊這樣一個簡單的小遊戲都要花上這麼多的時間寫這麼大量的程式碼，這讓我對更深入嘗試
+                製作各種專案躍躍欲試。這次製作過程也幫我打下Python的基礎，讓我更有能力去看懂別人寫的程式碼，但這仍然離實際的程式設計差得遠，終究只是臨摹
+                之作而已。
+            </p>
+        </div>
+
+        <!-- Project 5 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-5-5" tabindex="0">
+            <h4 class="content-title">介面展示</h4>
+            <div class="text-center">
+                <img src="assets/images/tetris-game-rule.png" alt="規則畫面展示" class="project-img">
+                <img src="assets/images/tetris-manipulate.png" alt="操作畫面展示" class="project-img">
+                <img src="assets/images/tetris-gameplay.png" alt="遊戲畫面展示" class="project-img">
+                <img src="assets/images/tetris-gameover.png" alt="結束畫面展示" class="project-img">
+            </div>
+        
+            <hr>
+
+            <h4 class="content-title">遊玩影片</h4>
+            <div class="text-center">
+                <video src="assets/video/tetris-gameplay.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+
+
+
+        <!-- Project 6 content 1 Covid Case Visualization -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-6-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                這個專案是"Mastering Programming with MATLAB"課程的期末專題，題目及數據皆為老師提供。此專案整合了我學到的所有基本MATLAB語法及程式概念，並延伸出部分課外內容作為挑戰。
+            </p>
+            <div class="text-center">
+                <img src="assets/images/CCV-content.png" alt="Covid Case Visualization專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 6 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-6-2" tabindex="0">
+            <h4 class="content-title">UI介紹</h4>
+            <ol>
+                <div class="text-center">
+                    <img src="assets/images/CCV-UI.png" alt="UI介面" class="project-img">
+                </div>
+                <li>資料繪製區</li>
+                <li>選擇欲繪製的國家</li>
+                <li>選擇欲繪製的地區</li>
+                <li>選擇滑動平均的取值範圍</li>
+                <li>選擇欲繪製的資料</li>
+                <li>選擇繪製方式</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>國家、地區連動：國家資料不重複；若有地區資料則連動顯示</li>
+                <video src="assets/video/CCV-country.mp4" width="50%" height="auto" controls muted loop></video>
+
+                <li>統計類型切換：可以選擇繪製每日或累積資料，且可以選擇移動平均的範圍大小</li>
+                <video src="assets/video/CCV-graph.mp4" width="50%" height="auto" controls muted loop></video>
+
+
+                <li>OOP架構：用物件導向的結構封裝資料</li>
+            </ol>
+        </div>
+
+        <!-- Project 6 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-6-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>如何讓X軸顯示時間</li>
+                <li>如何將累積資料分離成每日資料</li>
+                <li>如何在左右兩側顯示不同單位的Y軸</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>改用datetime型態作圖，並調整xtick</li>
+                <li>學習diff()函數的使用方法，並去除負值(可能是資料錯誤造成的)</li>
+                <li>學習yyaxis()函數的使用方法及圖表重製、設定的方法</li>
+            </ol>
+        </div>
+
+        <!-- Project 6 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-6-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                這次的專案讓我的MATLAB熟練度提高了許多，現在我除了在終端執行單純的運算、繪圖指令外，對於應用程式的設計、Callback的運作方式及物件的資料封
+                裝形式都有了更深入的瞭解，特別是圖形繪製的部分，我瞭解了圖表的座標軸、外框、格線等等的設定方式及不同的重製圖表方式帶來的差異，整體而言，我
+                透過這次的專案掌握了MATLAB的基本功。
+            </p>
+        </div>
+
+        <!-- Project 6 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-6-5" tabindex="0">
+            <h4 class="content-title">操作影片</h4>
+            <div class="text-center">
+                <video src="assets/video/CCV-demonstratiion.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+
+
+
+        <!-- Project 7 content 1 Simon Game -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-7-1" tabindex="0">
+            <h4 class="content-title">製作動機</h4>
+            <p>
+                JavaScript是基本前端網頁開發的最後一塊拼圖，學到這裡我覺得我應該已經能夠開發出一個互動式的網站了，於是先選擇了桌遊這種單純、簡單的主題作為
+                練習，之所以會想要選擇桌遊作為網頁遊戲的首個專題，也是因為我之後想要製作可以多人連線的網頁遊戲，在我學好完整的網頁開發之前，先將此題目當作
+                一個前哨戰，考驗我的前端架構能力。
+            </p>
+            <div class="text-center">
+                <img src="assets/images/simon-game-gameplay.png" alt="Simon Game專案的縮圖" class="project-img">
+            </div>
+        </div>
+
+        <!-- Project 7 content 2 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-7-2" tabindex="0">
+            <h4 class="content-title">遊戲流程</h4>
+            <p>
+                遊戲本身比實體的Simon難一點，原則是相同的，就是"Do what Simon says"，但在這個網頁中每次只會顯示下一步，並不會重複前面的順序，藉此來提高
+                難度，讓遊戲更具挑戰性。
+            </p>
+            <hr>
+
+            <h4 class="content-title">功能介紹</h4>
+            <ol>
+                <li>按鍵音效：四個按鍵分別有各自的音效，在Simon出題時和玩家按下時都會播放</li>
+                <li>按鍵回饋：按下按鍵後會有變暗的動畫，讓使用者能知道按下哪顆按鍵</li>
+                <video src="assets/video/simon-game-content.mp4" width="50%" height="auto" controls muted loop></video>
+                    
+
+
+                <li>遊戲結束：遊戲結束時會播放音效、並藉由鍵盤重新開始</li>
+                <video src="assets/video/simon-game-wrong.mp4" width="50%" height="auto" controls muted loop></video>
+            </ol>
+        </div>
+
+        <!-- Project 7 content 3 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-7-3" tabindex="0">
+            <h4 class="content-title">遇到的挑戰</h4>
+            <ol>
+                <li>如何記錄每一次的指令</li>
+                <li>如何將玩家的輸入按鍵與題目指令對照</li>
+                <li>如何製作出「按下按鈕」的特效</li>
+            </ol>
+
+            <hr>
+
+            <h4 class="content-title">解決方法</h4>
+            <ol>
+                <li>善用Array，並用.push()函式紀錄每次的指令</li>
+                <li>每當使用者按下按鍵，就紀錄該按鍵種類及按的次數，並檢查是否符合對應的題目指令</li>
+                <li>多去別的網站看看按下按鈕應該要有什麼效果</li>
+            </ol>
+        </div>
+
+        <!-- Project 7 content 4 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-7-4" tabindex="0">
+            <h4 class="content-title">得到的收穫</h4>
+            <p>
+                經過這個專案，我對於CSS的設計、JavaScript的互動都有了更深刻的理解，在逛各個網站的過程中也更能夠注意他們的設計、排版、功能、配色及背後的用
+                意並加以學習，這個學習網頁設計的過程也讓我有和學程式一樣的感覺，兩者都是透過經驗來累積自身實力，所以多看、多想、多做的過程本身都在讓我變得
+                更強，總而言之，這個簡單的網頁遊戲除了讓我更熟練掌握前端開發的互動以外，還讓我更清楚學習網頁設計的方式。
+            </p>
+        </div>
+
+        <!-- Project 7 content 5 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 detail-7-5" tabindex="0">
+            <h4 class="content-title">遊玩影片</h4>
+            <div class="text-center">
+                <video src="assets/video/Simon-game-demonstration.mp4" width="50%" height="auto" controls poster muted></video>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Back to top block -->
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-bar-up"></i></a>
+
+
+    
+    <!-- Footer -->
+    <div class="container"> 
+        <footer class="py-3 my-4"> 
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                <li class="nav-item footer-link">
+                    <a href="https://github.com/Para0229k" class="nav-link px-2 text-body-secondary rounded-2" target="_blank">Github</a>
+                </li> 
+                <li class="nav-item footer-link">
+                    <a href="https://publish.obsidian.md/para0229k" class="nav-link px-2 text-body-secondary rounded-2" target="_blank">Obsidian</a>
+                </li> 
+            </ul>
+
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <span class="text-center text-body-secondary">© 2025 WEI-JIE-HUANG. All rights reserved.</span>
+                <span class="text-end text-body-secondary">Built with Bootstrap and jQuery</span>
+            </div>   
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
