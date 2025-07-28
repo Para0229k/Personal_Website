@@ -4,6 +4,7 @@
 
 .profile-photo{
     border-radius: 10vh;
+    box-shadow: 5px 5px 5px #712cf9;
 }
 
 hr{
